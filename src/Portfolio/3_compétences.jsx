@@ -1,15 +1,16 @@
 import style from './Portfolio.module.css';
 
-export const Compétences = () =>{
+export const Compétences = () => {
 
 
 
-    return(
-        <div className={style.body}>
-       
-       
-       <p>hi</p>
-                   
-               </div>
+    return (
+        <section id="compétences">
+            <div className={style.body}>
+
+
+                <p>hi</p>
+
+            </div></section>
     )
 }
