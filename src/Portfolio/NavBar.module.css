@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    background-color: #46426e;
+    color: #f7e8e0;
+    h1{
+        color : #d32f63;
+    }
 }
 .navbar {
   display: flex;
@@ -67,5 +72,18 @@ li{
 }
 
 
+.nom {
+            color: #d32f63;
+        }
+
+        .titre {
+            color: #f7e8e0;
+        }
 
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

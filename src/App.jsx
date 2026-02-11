@@ -11,7 +11,10 @@ function App() {
 
   return (
     <div>
-  
+  {/* <NavBar /> */}
+  <NavBar />
+
+  <Accueil />
     </div>
   )
 }

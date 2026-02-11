@@ -19,9 +19,9 @@ export const Accueil = () =>{
 </div>
 
 <div className={style.presentation}>
-<h1>Hello, moi c'est Maëlle</h1>
+<h1 className={style.titre}>Hello, moi c'est <span className={style.nom}>Maëlle</span></h1>
 
-<p>J'aime le codage et l'art, mais surtout les combiner pour créer de nouvelles choses</p>
+<p className={style.phrasedaccroche}>J'aime le codage et l'art, mais surtout les combiner pour créer de nouvelles choses</p>
 
 </div>
 </div>
