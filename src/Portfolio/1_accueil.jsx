@@ -5,6 +5,7 @@ export const Accueil = () =>{
 
 
     return(
+        <section id="accueil">
         <div className={style.body}>
 
 <div>
@@ -24,7 +25,12 @@ export const Accueil = () =>{
 <p className={style.phrasedaccroche}>J'aime le codage et l'art, mais surtout les combiner pour créer de nouvelles choses</p>
 
 </div>
-</div>
 
+<div>
+    <button className={style.button} download="CV_Maelle_Baudot.pdf" onClick={() => window.open('CV_Maelle_Baudot.pdf', '_blank')}>CV</button>
+    <button className={style.button}><a href="https://github.com/LostRibby" target="_blank">GitHub</a></button>
+</div>
+</div>
+</section>
     )
 }
