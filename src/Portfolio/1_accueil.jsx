@@ -1,5 +1,5 @@
 import style from './Portfolio.module.css'; 
-import pdp from "../images/PhotoMoi.jpg"
+import pdp from "../images/PDPMOI.jpg"
 export const Accueil = () =>{
 
 
