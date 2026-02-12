@@ -8,12 +8,9 @@ export const Accueil = () =>{
         <section id="accueil">
         <div className={style.body}>
 
-<div>
-    <nav>
-        
-    </nav>
-</div>
 
+    
+<div className={style.accueilContainer}>
 <div className={style.photo}>
          <img className={style.pdp} src={pdp} alt="Photo de Maëlle" />  
          <p>Front-End Developper</p>
@@ -31,6 +28,7 @@ export const Accueil = () =>{
     <button className={style.button}><a href="https://github.com/LostRibby" target="_blank">GitHub</a></button>
 </div>
 </div>
+            </div>
 </section>
     )
 }

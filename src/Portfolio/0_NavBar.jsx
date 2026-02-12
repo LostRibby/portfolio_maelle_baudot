@@ -28,7 +28,7 @@ export const NavBar = () => {
 
 
     return (
-        <header>
+        <header className={style.header}>
         <nav className={`${style.body} ${isScrolled ? style.scrolled : ''}`}>
 
             <div className={style.container}>

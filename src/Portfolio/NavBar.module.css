@@ -9,16 +9,7 @@
         color : #d32f63;
     }
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #46426e;
-  padding: 10px 20px;
-  color: #f7e8e0;
 
-  
-}
 
 /* Logo */
 .logo {
@@ -86,4 +77,8 @@ li{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding : 20px; 
+
+    border-bottom :  2px solid #292644;
+    margin-bottom: 4%; 
 }
