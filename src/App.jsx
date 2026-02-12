@@ -6,6 +6,9 @@ import NavBar from './Portfolio/0_NavBar';
 import { Parcours } from './Portfolio/2_parcours';
 import { Compétences } from './Portfolio/3_compétences';
 import { Projets } from './Portfolio/4_projets'
+import { Contact } from './Portfolio/5_contact';
+
+
 function App() {
   
 
@@ -27,7 +30,10 @@ function App() {
   <Projets />
     
 
+ 
+  {/* <Contact /> */}
   
+ <Contact />
     </div>
   )
 }
