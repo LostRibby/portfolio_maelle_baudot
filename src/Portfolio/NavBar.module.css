@@ -1,84 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-    background-color: #46426e;
-    color: #f7e8e0;
-    h1{
-        color : #d32f63;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  
+  color: #f7e8e0;
+  width: auto;
+
+  h1 {
+    color: #d32f63;
+  }
+
+  .header {
+    height: 5%;
+    align-items: center;
+    gap: 50%;
+    top: 0;
+    right :0;
+    left : 0 ;
+    position: fixed;
+    width: auto;
+background-color: #292644;
+
+  .navlinks {
+      list-style: none;
+      display: flex;
+      gap: 20px;
     }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    /* Navigation links */
+
+
+    .navlinks li a {
+      color: #f7e8e0;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .navlinks li a ::after {
+
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #f7e8e0;
+      transition: width .3s;
+    }
+
+    .navlinks li a:hover {
+      color: #d32f93;
+    }
+
+
+    .menu-icon {
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    a::after {
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    li {
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+
+
+    .nom {
+      color: #d32f63;
+    }
+
+    .titre {
+      color: #f7e8e0;
+    }
+
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      padding: 20px;
+
+     
+      margin-bottom: 4%;
+    }
+  }
 }
 
 
 /* Logo */
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* Navigation links */
-.navlinks {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navlinks li a {
-  color: #f7e8e0;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.navlinks li a ::after{
-
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #f7e8e0;
-    transition: width .3s;
-}
-.navlinks li a:hover {
-  color: #d32f93;
-}
-
-
-.menu-icon {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-a::after{
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 0;
-}
-li{
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 20px;
-}
-
-
-.nom {
-            color: #d32f63;
-        }
-
-        .titre {
-            color: #f7e8e0;
-        }
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding : 20px; 
-
-    border-bottom :  2px solid #292644;
-    margin-bottom: 4%; 
-}

@@ -10,30 +10,33 @@ import { Contact } from './Portfolio/5_contact';
 
 
 function App() {
-  
+
 
   return (
     <div>
-  {/* <NavBar /> */}
-  <NavBar />
-  
-  {/* <Accueil /> */}
-  <Accueil />
+      {/* <NavBar /> */}
+      
+        <NavBar />
+      
+      
+        {/* <Accueil /> */}
+        <Accueil />
 
-  {/* <Parcours /> */}
-  <Parcours />
+        {/* <Parcours /> */}
+        <Parcours />
 
-  {/* <Compétences /> */}
-  <Compétences />
-  
-  {/* <Projets /> */}
-  <Projets />
-    
+        {/* <Compétences /> */}
+        <Compétences />
 
- 
-  {/* <Contact /> */}
-  
- <Contact />
+        {/* <Projets /> */}
+        <Projets />
+      
+
+
+      {/* <Contact /> */}
+      <footer>
+        <Contact />
+      </footer>
     </div>
   )
 }
