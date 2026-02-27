@@ -5,8 +5,8 @@ export const Accueil = () =>{
 
 
     return(
-        <section id="accueil">
-        <div className={style.body}>
+        <section >
+        <div id="accueil" className={style.body}>
 
 
     

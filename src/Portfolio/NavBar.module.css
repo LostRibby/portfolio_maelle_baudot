@@ -12,7 +12,7 @@
   }
 
   .header {
-    height: 5%;
+    height: 8%;
     align-items: center;
     gap: 50%;
     top: 0;
@@ -93,12 +93,10 @@ background-color: #292644;
       align-items: center;
       width: auto;
       padding: 20px;
-
-     
       margin-bottom: 4%;
+      
     }
   }
 }
 
 
-/* Logo */

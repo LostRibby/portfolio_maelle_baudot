@@ -5,8 +5,8 @@ export const Parcours = () => {
 
 
     return (
-        <section id="parcours">
-            <div className={style.body}>
+        <section >
+            <div id="parcours" className={style.body}>
                 <div className={style.parcoursContainer}>
                     <h2>Mon Parcours</h2>
                     <div className={style.parcours}>

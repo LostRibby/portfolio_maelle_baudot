@@ -3,7 +3,7 @@ import style from './NavBar.module.css';
 
 
 const NavItems = [
-    { name: 'Accueil', link: '#acccueil' },
+    { name: 'Accueil', link: '#accueil' },
     { name: 'Parcours', link: '#parcours' },
     { name: 'Compétences', link: '#compétences' },
     { name: 'Projets', link: '#projets' },

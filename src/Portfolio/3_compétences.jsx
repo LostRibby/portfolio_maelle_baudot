@@ -16,8 +16,8 @@ export const Compétences = () => {
 
 
     return (
-        <section id="compétences">
-            <div className={style.body}>
+        <section >
+            <div id="compétences" className={style.body}>
 
                 <div className={style.competencesContainer}>
                     <h2>Mes compétences</h2>
