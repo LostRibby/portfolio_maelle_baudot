@@ -4,7 +4,7 @@ const projects =[
     {
         id:1,
         title: "Todo List", 
-        description : "une simple todo list pour notre liste de souhaits de jeux vidéo", 
+        description : "une simple todo list pour notre liste de souhaits de jeux vidéo.", 
         image : "../Projets/ToDoList.jpeg", 
         link : undefined, 
         github : undefined
@@ -12,7 +12,7 @@ const projects =[
     {
         id:2,
         title : "Premier Workshop", 
-        description : "premier workshop de ma formation , j'ai réalisé un site d'autogestion de traitements médicamenteux", 
+        description : "premier workshop de ma formation , j'ai réalisé un site d'autogestion de traitements médicamenteux.", 
         image : "/Projets/PillCraft.jpeg",
         link : undefined,
         github : "https://github.com/LostRibby/PC-again"

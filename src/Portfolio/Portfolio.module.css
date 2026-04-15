@@ -12,7 +12,7 @@ section {
 
 /* Titles */
 h1, h3 {
-  color: #d32f63;
+  color: #ef5b8a;
 }
 /* boutons */
 button {
@@ -32,7 +32,13 @@ button {
   flex-direction: column;
   justify-content: center;
     align-items: center;
+border-left: dotted 4px #f7e8e0;
 
+padding: 2%;
+}
+.presentation{
+    margin-left: 3%;
+    
 }
 .photo{
     display: flex; 
@@ -90,4 +96,30 @@ button {
   padding: 20px;
   margin: 10px;
   border-radius: 15px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+.competencesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.competences {
+border : 2px solid #f7e8e0;
+padding: 20px;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+
+gap : 3%;
+img{
+    width: 6%;
+    height: 80%;
+    
+}}

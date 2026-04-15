@@ -21,7 +21,7 @@ export const Compétences = () => {
 
                 <div className={style.competencesContainer}>
                     <h2>Mes compétences</h2>
-                    <h3>Langages</h3>
+                    
 
                     <div className={style.competences}>
                         <img src={css} alt="CSS" />
