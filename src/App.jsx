@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import './App.css'
 import { Accueil } from './Portfolio/1_accueil';
@@ -9,16 +8,29 @@ import { Projets } from './Portfolio/4_projets'
 import { Contact } from './Portfolio/5_contact';
 
 
+
+
 function App() {
 
 
   return (
-    <div>
-      {/* <NavBar /> */}
+    <div className="App">
+
+      <div className="gradient-bg">
+
+        <div className="gradient-container">
+          <div className="g1"></div>
+          <div className="g2"></div>
+          <div className="g3"></div>
+          <div className="g4"></div>
+          <div className="g5"></div>
+        </div>
+    </div>
+
       
-        <NavBar />
-      
-      
+      <div className='content'>
+  {/* <NavBar /> */}
+  <NavBar />
         {/* <Accueil /> */}
         <Accueil />
 
@@ -30,15 +42,17 @@ function App() {
 
         {/* <Projets /> */}
         <Projets />
+
       
-
-
       {/* <Contact /> */}
+
       <footer>
         <Contact />
       </footer>
+
+</div>
     </div>
-  )
+  );
 }
 
 export default App

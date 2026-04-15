@@ -7,12 +7,14 @@
   color: #f7e8e0;
   width: auto;
 
-  h1 {
+  
+}
+h1 {
     color: #d32f63;
   }
 
   .header {
-    height: 8%;
+    height: 10%;
     align-items: center;
     gap: 50%;
     top: 0;
@@ -29,7 +31,7 @@ background-color: #292644;
     }
 
     .logo {
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: bold;
     }
 
@@ -59,7 +61,7 @@ background-color: #292644;
 
     .menu-icon {
       display: none;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       cursor: pointer;
     }
 
@@ -97,6 +99,5 @@ background-color: #292644;
       
     }
   }
-}
 
 

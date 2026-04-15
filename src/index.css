@@ -5,13 +5,16 @@
  box-sizing: border-box;
 }
 
+
 #root{
-  margin : auto; 
+  margin : auto;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 

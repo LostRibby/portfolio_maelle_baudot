@@ -6,8 +6,8 @@ const NavItems = [
     { name: 'Accueil', link: '#accueil' },
     { name: 'Parcours', link: '#parcours' },
     { name: 'Compétences', link: '#compétences' },
-    { name: 'Projets', link: '#projets' },
-    { name: 'Contact', link: '#contact' }
+    { name: 'Projets', link: '#projets' }
+    
 ];
 
 export const NavBar = () => {
