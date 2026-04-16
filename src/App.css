@@ -20,16 +20,16 @@
     margin: auto;
     
     --color-bg1: #292644;
-    --color-bg2: #973c7d;
+    --color-bg2: #662942;
 
 
-    --color1: 135, 129, 189;
-    --color2: 164, 30, 72;
-    --color3: 247, 232, 224;
-    --color4: 138, 62, 150;
-    --color5: 85, 151, 130;
+    --color1: 71, 63, 143;
+    --color2: 255, 47, 113;
+    --color3: 255, 255, 255;
+    --color4: 72, 6, 82;
+    --color5: 68, 250, 192;
 
-    --color-intercative: 65, 26, 38;
+    --color-intercative: 121, 64, 133;
 
     --circle-size: 80%;
     --blending: soft-light;
@@ -170,3 +170,4 @@ svg {
     opacity: 1;
         transform-origin : calc(50% + 800px) calc(50% + 200px) ;
 }
+
